@@ -4,149 +4,149 @@
 **Last Updated**: {CREATED_DATE}
 
 ## Update Log
-- {CREATED_DATE}: 初期作成
+- {CREATED_DATE}: Initial creation
 
 ---
 
-## 概要
+## Overview
 
 {OVERVIEW}
 
-## ゴール
+## Goals
 
 {GOALS}
 
-## 背景・コンテキスト
+## Background / Context
 
 {BACKGROUND}
 
-## 非ゴール（スコープ外）
+## Non-Goals (Out of Scope)
 
 {NON_GOALS}
 
-## 技術的考慮事項
+## Technical Considerations
 
 {TECHNICAL_CONSIDERATIONS}
 
-## 現状分析
+## Current State Analysis
 
-### 既存の実装
-<!-- 関連する既存のコード、機能、テストについて記述 -->
+### Existing Implementation
+<!-- Describe related existing code, features, and tests -->
 
-### 変更が必要な部分
-<!-- この仕様を実装するために変更が必要な箇所 -->
+### Areas Requiring Changes
+<!-- Identify areas that need modification to implement this spec -->
 
-## 設計
+## Design
 
-### アーキテクチャ概要
-<!-- システム設計の概要図や説明 -->
+### Architecture Overview
+<!-- High-level system design diagrams or descriptions -->
 
-### 主要コンポーネント
-<!-- 実装する主要なコンポーネント/モジュール -->
+### Key Components
+<!-- Main components/modules to implement -->
 
-### データフロー
-<!-- データがシステムを通じてどう流れるか -->
+### Data Flow
+<!-- How data flows through the system -->
 
-## 実装計画
+## Implementation Plan
 
 ### Phase 1: {PHASE1_TITLE}
 
-**タスク:**
+**Tasks:**
 1. {TASK_1}
 2. {TASK_2}
 3. {TASK_3}
 
-**変更・作成するファイル:**
-- `crates/path/to/file.rs` (新規/変更)
+**Files to create/modify:**
+- `path/to/file` (new/modify)
 
-**検証:**
-- 検証項目1
-- 検証項目2
+**Verification:**
+- Verification item 1
+- Verification item 2
 
 ### Phase 2: {PHASE2_TITLE}
 
-**タスク:**
+**Tasks:**
 1. {TASK_1}
 2. {TASK_2}
 
-**変更・作成するファイル:**
-- `crates/path/to/file.rs` (新規/変更)
+**Files to create/modify:**
+- `path/to/file` (new/modify)
 
-**検証:**
-- 検証項目1
+**Verification:**
+- Verification item 1
 
-## 重要なファイル
+## Key Files
 
-### 作成するファイル
-<!-- 新規作成するファイルのリスト -->
+### Files to Create
+<!-- List of new files to create -->
 
-### 変更するファイル
-<!-- 変更が必要な既存ファイルのリスト -->
+### Files to Modify
+<!-- List of existing files that need changes -->
 
-### 参照するファイル
-<!-- 実装時に参照すべきファイル -->
+### Reference Files
+<!-- Files to reference during implementation -->
 
-## テスト戦略
+## Test Strategy
 
-### ユニットテスト
-<!-- ユニットテストの方針 -->
+### Unit Tests
+<!-- Unit testing approach -->
 
-### 統合テスト
-<!-- 統合テストの方針 -->
+### Integration Tests
+<!-- Integration testing approach -->
 
-### E2Eテスト
-<!-- E2Eテストの方針（必要な場合） -->
+### E2E Tests
+<!-- E2E testing approach (if applicable) -->
 
-## 成功基準
+## Success Criteria
 
-### 機能要件
-- [ ] 要件1
-- [ ] 要件2
-- [ ] 要件3
+### Functional Requirements
+- [ ] Requirement 1
+- [ ] Requirement 2
+- [ ] Requirement 3
 
-### 非機能要件
-- [ ] パフォーマンス要件
-- [ ] 信頼性要件
-- [ ] 保守性要件
+### Non-Functional Requirements
+- [ ] Performance requirements
+- [ ] Reliability requirements
+- [ ] Maintainability requirements
 
-## 検証チェックリスト
+## Verification Checklist
 
-### 実装前
-- [ ] 設計レビュー完了
-- [ ] 依存関係の確認
-- [ ] テスト計画策定
+### Pre-Implementation
+- [ ] Design review completed
+- [ ] Dependencies confirmed
+- [ ] Test plan established
 
-### 実装中
-- [ ] Phase 1完了
-- [ ] Phase 2完了
+### During Implementation
+- [ ] Phase 1 completed
+- [ ] Phase 2 completed
 
-### 実装後
-- [ ] 全てのテストが通る
-- [ ] `cargo clippy` が通る
-- [ ] `cargo fmt` が通る
-- [ ] コードレビュー完了
-- [ ] ドキュメント更新
+### Post-Implementation
+- [ ] All tests pass
+- [ ] Linter checks pass
+- [ ] Formatter applied
+- [ ] Code review completed
+- [ ] Documentation updated
 
-## リスクと対策
+## Risks and Mitigations
 
-### リスク1: {RISK_TITLE}
-**対策**: {MITIGATION}
+### Risk 1: {RISK_TITLE}
+**Mitigation**: {MITIGATION}
 
-### リスク2: {RISK_TITLE}
-**対策**: {MITIGATION}
+### Risk 2: {RISK_TITLE}
+**Mitigation**: {MITIGATION}
 
-## 依存関係
+## Dependencies
 
-### 必要なクレート
-<!-- 新規に必要なRustクレートなど -->
+### Required Packages
+<!-- New packages/libraries/crates needed -->
 
-### 環境要件
-<!-- 必要な環境変数や設定 -->
+### Environment Requirements
+<!-- Required environment variables or configuration -->
 
-## 今後の拡張
+## Future Extensions
 
-<!-- Phase 2以降の拡張計画（あれば） -->
+<!-- Plans for future phases or enhancements (if any) -->
 
-## まとめ
+## Summary
 
-<!-- 仕様全体のサマリー -->
+<!-- Overall summary of the specification -->

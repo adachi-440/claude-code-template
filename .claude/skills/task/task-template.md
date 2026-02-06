@@ -5,22 +5,22 @@
 **Parent Spec**: {PARENT_SPEC}
 
 ## Update Log
-- {CREATED_DATE}: 初期作成
+- {CREATED_DATE}: Initial creation
 
 ---
 
-## 概要
+## Overview
 
 {DESCRIPTION}
 
-## タスク詳細
+## Task Details
 
 ### 1. {SUBTASK_1_TITLE}
 
 {SUBTASK_1_DESCRIPTION}
 
-```rust
-// 実装例（必要な場合）
+```
+// Implementation example (if needed)
 ```
 
 ### 2. {SUBTASK_2_TITLE}
@@ -31,74 +31,74 @@
 
 {SUBTASK_3_DESCRIPTION}
 
-## 作成・変更するファイル
+## Files to Create / Modify
 
-### 新規作成
+### New Files
 {FILES_TO_CREATE}
 
-### 変更
+### Modified Files
 {FILES_TO_MODIFY}
 
-## 参照するファイル
+## Reference Files
 
 {REFERENCE_FILES}
 
-## 実装手順
+## Implementation Steps
 
-### ステップ1: {STEP_1_TITLE}
+### Step 1: {STEP_1_TITLE}
 {STEP_1_DESCRIPTION}
 
-### ステップ2: {STEP_2_TITLE}
+### Step 2: {STEP_2_TITLE}
 {STEP_2_DESCRIPTION}
 
-### ステップ3: {STEP_3_TITLE}
+### Step 3: {STEP_3_TITLE}
 {STEP_3_DESCRIPTION}
 
-## 依存関係
+## Dependencies
 
 {DEPENDENCIES}
 
-## 検証方法
+## Verification
 
-### コンパイル検証
+### Build Verification
 ```bash
-# ビルドエラーがないことを確認
-cargo build
+# Verify no build errors
+# TODO: e.g. cargo build, npm run build, python -m build
 ```
 
-### テスト検証
+### Test Verification
 ```bash
-# テストを実行
-just test-unit
+# Run tests
+# TODO: e.g. cargo test, npm test, pytest
 ```
 
-### Lint検証
+### Lint Verification
 ```bash
-# clippyを実行
-just clippy
+# Run linter
+# TODO: e.g. cargo clippy, npm run lint, ruff check .
 ```
 
-### 追加の検証項目
+### Additional Verification
 - [ ] {VERIFICATION_1}
 - [ ] {VERIFICATION_2}
 - [ ] {VERIFICATION_3}
 
-## 成功基準
+## Success Criteria
 
 - [ ] {CRITERION_1}
 - [ ] {CRITERION_2}
 - [ ] {CRITERION_3}
-- [ ] `cargo build` がエラーなし
-- [ ] 全てのテストが通る
-- [ ] `just clippy` が通る
-- [ ] `just fmt` でフォーマット済み
+- [ ] Build succeeds without errors
+- [ ] All tests pass
+- [ ] Linter checks pass
+- [ ] Formatter applied
 
-## 実装上の注意点
+## Implementation Notes
 
 {IMPLEMENTATION_NOTES}
 
-## 次のステップ
+## Next Steps
 
-このタスクが完了したら:
+After this task is completed:
 1. {NEXT_STEP_1}
 2. {NEXT_STEP_2}
